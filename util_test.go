@@ -46,10 +46,10 @@ func TestGithubize(t *testing.T) {
 		repoName string
 		result   string
 	}{
-		{"property", "https://github.com/akamai/cli-property.git"},
-		{"cli-property", "https://github.com/akamai/cli-property.git"},
-		{"akamai/cli-property", "https://github.com/akamai/cli-property.git"},
-		{"https://github.com/akamai/cli-property.git", "https://github.com/akamai/cli-property.git"},
+		{"property", "https://github.com/lucdouwen/cli-property.git"},
+		{"cli-property", "https://github.com/lucdouwen/cli-property.git"},
+		{"akamai/cli-property", "https://github.com/lucdouwen/cli-property.git"},
+		{"https://github.com/akamai/cli-property.git", "https://github.com/lucdouwen/cli-property.git"},
 		{"file:///local/repo/path", "file:///local/repo/path"},
 		{"file:///local/repo/path.git", "file:///local/repo/path.git"},
 		{"ssh://example.org:/repo/path", "example.org:/repo/path"},
